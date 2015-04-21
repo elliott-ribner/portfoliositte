@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="personal portfolio">
+  <meta name="author" content="elliott ribner">
+  <title>Elliott Ribner</title>
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/fontello.css" rel="stylesheet" type="text/css">
+
+  <!-- Custom Fonts -->
+  <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <div class="row navbar-brand">
+        <div class="col-xs-12">
+          <div class="text-center">
+            <a href="#link">About</a>
+            <a href="#link">Portfolio</a>
+            <a href="#link">Resume</a>
+            <a href="#link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="row top-bg">
+    <div class="col-sm-7"></div>
+    <div class="col-sm-5">
+      <div class="row top">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+
+          <h2> Elliott Ribner </h2>
+          <p>Web Development / Web Design</p>
+          <p >Full stack developer with interests in Rails, JavaScript, web scraping, and all things front-end. Please feel free to reach out to me though the contact info listed below. </p>
+
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+      <div class="row lower">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <p>phone: 978.886.7144</p>
+          <p>email: elr886@gmail.com</p>
+          <p>address: Somerville, MA</p>
+
+          <ul class="list-horizontal">
+            <li><i class="icon-github"></i></li>
+            <li><i class="icon-facebook"></i></li>
+            <li><i class="icon-doc-text-inv"></i></li>
+            <li><i class="icon-skype"></i></li>
+            <li><i class="icon-linkedin"></i></li>
+
+          </ul>
+
+        </div>
+        <div class="col-sm-3"></div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+<!-- portfolio header -->
+<div class="white-bar">
+  <div class="container">
+    <h2><span> portfolio </span></h2>
+  </div>
+<div class="white-content">
+  <div class="container">
+    <div id="port-short" class="row">
+
+      <div class="" id="port1" >
+        <div class="col-xs-4 port-item">
+          <img class="img-responsive" src="img/piano-trainer.jpg"/>
+          <p class="text-center">Link Shortener</p>
+
+        </div>
+      </div>
+
+      <div class="" id="port2" >
+        <div class="col-xs-4 port-item">
+          <img class="img-responsive"src="img/tune-bot-site.jpg"/>
+          <p class="text-center">Piano Ear Trainer Web App</p>
+
+        </div>
+      </div>
+
+      <div class="" id="port3" >
+        <div class="col-xs-4 port-item">
+          <img class="img-responsive" src="img/link-shortener-site.jpg"/>
+          <p class="text-center">Website Generator</p>
+
+        </div>
+      </div>
+
+      <div class="hidden" id="port4">
+        <div class="col-xs-4 port-item">
+          <img class="img-responsive" src="img/piano-trainer.jpg"/>
+          <p class="text-center">Tune-bot tuning calculator</p>
+
+        </div>
+      </div>
+
+      <div class="hidden" id="port5">
+        <div class="col-xs-4 port-item">
+          <img class="img-responsive" src="img/tune-bot-site.jpg"/>
+          <p class="text-center">Rails POS system</p>
+        </div>
+      </div>
+
+      <div class="hidden" id="port6">
+        <div class="col-xs-4 port-item">
+          <img class="img-responsive" src="img/link-shortener-site.jpg"/>
+          <p class="text-center">Bass Trainer Android App</p>
+        </div>
+      </div>
+
+
+    </div>
+    <button class="center-text display-button" onclick="toggleport()" ><span class="glyphicon glyphicon-collapse-down" aria-hidden="true"></span> view full portfolio </button>
+    <!-- port extended starts hidden but can be toggled to visible -->
+
+    <div id="port-extended" class="hidden main-content-block">
+      <div class="row">
+        <div class="col-xs-5"><img src="img/imac.png"/></div>
+        <div class="col-xs-7">
+          <h3>Link Shortener</h3>
+          <hr>
+          <p>Too Short Link Shortener is a url link shortener. Similarly to products like bitly the link shortener allows users to input long urls and returns you a shorter url which will redirect to the originally provided url. Additonally a user can automatically generate html links by providing a destination url and label.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-7">
+          <h3>Piano Ear Trainer Web App</h3>
+          <hr>
+          <p>The Piano Ear Trainer is designed to be a fun tool to help users improve their sense of pitch. At the press of a button a user is played a random piano note. A user can then input their guess of where on the piano that note came from. Alternatively the aspiring musician can also improve their sheet music reading skills by generating a random note on the staff. The app keeps track of the users score and displays this as a percentage in a scss graphic dial.</p>
+        </div>
+        <div class="col-xs-5"><img src="img/imac.png"/></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5"><img src="img/imac.png"/></div>
+        <div class="col-xs-7">
+          <h3>Website Generator</h3>
+          <hr>
+          <p>This is a web scraping project involving web scraping on yelp using beautiful soup. The parsed data is scraped, saved, formatted and thrown into a responsive website template.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-7">
+          <h3>Tune-bot tuning calculator</h3>
+          <hr>
+          <p>The popular tune-bot tuning calculator is a javascript based calculator that takes inputs such as drum size, number of drums, and tuning preference and provides the user with suggested tunings based on their individual setup.</p>
+        </div>
+        <div class="col-xs-5"><img src="img/imac.png"/></div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- resume header -->
+</div>
+<!-- portfolio header end-->
+<div class="container blue-bar">
+  <div class='row'>
+    <h2><span> resume </span></h2>
+
+  </div>
+</div>
+<div class="blue-content container">
+  <div class='row'>
+    <div class='col-sm-8'>
+      <h3>Employment</h3>
+      <!-- <div class"row">
+<div class='col-xs-2'><h4><span class='date'>2011</span></h4></div>
+<div class='col-xs-10'><h4>Manager / Confounder<span> - Overtone Labs</span></h4>
+
+         <p>Started Overtone Labs Inc. in 2011 where we invented a hit product called the tune-bot drum tuner and have since gone on to develop other new and innovative accesories for drummers.</p>
+       </div>
+     </div> -->
+     <div class='row'>
+      <div class='col-xs-2'><h4><span class='date'>2011-2015</span></h4></div>
+      <div class='col-xs-10'>
+        <h4>Manager / Confounder<span> - Overtone Labs</span></h4>
+
+        <p>Started Overtone Labs Inc. in 2011 where we invented a hit product called the tune-bot drum tuner and have since gone on to develop other new and innovative accesories for drummers.</p>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-xs-2'><h4><span class='date'>2011</span></h4></div>
+      <div class='col-xs-10'>
+        <h4> Marketing Manager<span> - Chexpert</span></h4>
+
+        <p>Marketing and branding for new Chinese company dedicated to assisting foreign companies expanding to the Chinese Market in the localization.</p>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class='col-xs-2'><h4><span class='date'>2011</span></h4></div>
+      <div class='col-xs-10'><h4> Web and Graphic Designer<span> - Freelance</span></h4>
+
+        <p>Assisted local companies in website development and graphic design.</p></div>
+      </div>
+
+  </div>
+    <div class='col-sm-4'>
+      <h3>Skills</h3>
+
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Ruby on Rails</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Python</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Ruby</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;HTML and CSS</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;JavaScript</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;PhotoShop</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Adobe Illustrator</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Sass</h4>
+
+      <!-- <h3>Hobbies</h3>
+
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Snowboarding</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Web/App development</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Entreprenuership</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Fishing</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Travel</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Mandarin Studies</h4> -->
+    </div>
+  </div>
+  <div class='row'>
+
+      <div class="col-sm-8">
+      <h3>Education</h3>
+
+      <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Bachelors of Economics<span> - Montana State University</span></h4>
+      <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Chinese Langauge Study<span> - Dalian University of Technology</span></h4>
+      <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Full Stack Development Bootcamp<span> - Launch Academy</span></h4>
+      <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Computer Science 101<span> - Udacity</span></h4>
+      <h4><span class="glyphicon glyphicon-education" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Web Development<span> - MSU Great Falls Extension</span></h4>
+    </div>
+      <div class="col-sm-4">
+      <h3>Hobbies</h3>
+
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Snowboarding</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Web/App development</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Entreprenuership</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Fishing</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Travel</h4>
+      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> &nbsp;&nbsp;&nbsp;&nbsp;Mandarin Studies</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- resume header -->
+<div class="white-bar">
+  <div class="container">
+    <h2><span> contact </span></h2>
+
+          <!-- <button onclick="addClass('portfolio-1','hidden')"> remove class </button>
+          <button onclick="removeClass('portfolio-1','hidden')"> add class </button> -->
+        </div>
+      </div>
+      <!-- resume header end -->
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom-portfolio-slider.js"></script>
+    </body>
+    </html>
