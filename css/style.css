@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
+
 .main-content-block {
   padding-top: 30px;
   padding-bottom: 20px;
 }
 img:hover {
-  opacity: 0.2;
+  opacity: 0.7;
 }
 button {
   background-color: #FFF;
@@ -140,17 +141,7 @@ font-size: 18px;
 
 }
 
-/*.top-row-padding {
-  padding-top: 0px;
-}*/
 
-/*.white-bar hr {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-width:1px;
-
-  border-color: #3498db;
-}*/
 
 .white-bar h2 {
    width: 100%;
@@ -177,12 +168,7 @@ font-size: 18px;
    line-height: 0.1em;
    margin: 10px 0 20px;
 }
-/*.blue-bar hr {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-width:1px;
-  border-color: #fff;
-}*/
+
 .blue-bar {
   padding-top: 40px;
 }

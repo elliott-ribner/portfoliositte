@@ -24,16 +24,16 @@
       <div class="row navbar-brand">
         <div class="col-xs-12">
           <div class="text-center">
-            <a href="#link">About</a>
-            <a href="#link">Portfolio</a>
-            <a href="#link">Resume</a>
-            <a href="#link">Contact</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </div>
     </div>
   </nav>
   <div class="row top-bg">
+    <a name="contact"></a>
     <div class="col-sm-7"></div>
     <div class="col-sm-5">
       <div class="row top">
@@ -51,7 +51,7 @@
         <div class="col-sm-3"></div>
         <div class="col-sm-6">
           <p>phone: 978.886.7144</p>
-          <p>email: elr886@gmail.com</p>
+          <p>email: ElliottLRibner@gmail.com</p>
           <p>address: Somerville, MA</p>
 
           <ul class="list-horizontal">
@@ -74,6 +74,7 @@
 </div>
 <!-- portfolio header -->
 <div class="white-bar">
+  <a name="portfolio"></a>
   <div class="container">
     <h2><span> portfolio </span></h2>
   </div>
@@ -84,86 +85,151 @@
       <div class="" id="port1" >
         <div class="col-xs-4 port-item">
           <img class="img-responsive" src="img/piano-trainer.jpg"/>
-          <p class="text-center">Link Shortener</p>
+          <p class="text-center">Piano Ear Trainer</p>
 
         </div>
       </div>
 
       <div class="" id="port2" >
         <div class="col-xs-4 port-item">
+          <a href="http://www.tune-bot.com/">
           <img class="img-responsive"src="img/tune-bot-site.jpg"/>
-          <p class="text-center">Piano Ear Trainer Web App</p>
+        </a>
+          <p class="text-center">JS Tuning Calculator</p>
 
         </div>
       </div>
 
       <div class="" id="port3" >
         <div class="col-xs-4 port-item">
+          <a href="https://tooshrt.herokuapp.com/">
           <img class="img-responsive" src="img/link-shortener-site.jpg"/>
-          <p class="text-center">Website Generator</p>
+        </a>
+          <p class="text-center">Link Shortener</p>
 
         </div>
       </div>
 
+
       <div class="hidden" id="port4">
         <div class="col-xs-4 port-item">
-          <img class="img-responsive" src="img/piano-trainer.jpg"/>
-          <p class="text-center">Tune-bot tuning calculator</p>
-
+          <a href="https://meniapp.herokuapp.com/">
+          <img class="img-responsive" src="img/meni.jpg"/>
+        </a>
+          <p class="text-center">Rails POS system</p>
         </div>
       </div>
 
       <div class="hidden" id="port5">
         <div class="col-xs-4 port-item">
-          <img class="img-responsive" src="img/tune-bot-site.jpg"/>
-          <p class="text-center">Rails POS system</p>
+          <a href="https://github.com/elliott-ribner/android-guitar-trainer">
+          <img class="img-responsive" src="img/bassapp.jpg"/>
+          </a>
+          <p class="text-center">Bass Trainer Android App</p>
         </div>
       </div>
 
       <div class="hidden" id="port6">
         <div class="col-xs-4 port-item">
-          <img class="img-responsive" src="img/link-shortener-site.jpg"/>
-          <p class="text-center">Bass Trainer Android App</p>
+          <a href="http://www.elrwebsolutions.com/9784755121.html">
+          <img class="img-responsive" src="img/web-scraper.jpg"/>
+          </a>
+          <p class="text-center">Website Generator</p>
         </div>
       </div>
 
+      <div class="hidden" id="port7">
+        <div class="col-xs-4 port-item">
+          <a href="http://chinatown-aces.herokuapp.com/">
+          <img class="img-responsive" src="img/chinatown.jpg"/>
+        </a>
+          <p class="text-center">Review website</p>
+        </div>
+      </div>
 
     </div>
     <button class="center-text display-button" onclick="toggleport()" ><span class="glyphicon glyphicon-collapse-down" aria-hidden="true"></span> view full portfolio </button>
     <!-- port extended starts hidden but can be toggled to visible -->
 
     <div id="port-extended" class="hidden main-content-block">
-      <div class="row">
-        <div class="col-xs-5"><img src="img/imac.png"/></div>
-        <div class="col-xs-7">
-          <h3>Link Shortener</h3>
-          <hr>
-          <p>Too Short Link Shortener is a url link shortener. Similarly to products like bitly the link shortener allows users to input long urls and returns you a shorter url which will redirect to the originally provided url. Additonally a user can automatically generate html links by providing a destination url and label.</p>
-        </div>
-      </div>
+
       <div class="row">
         <div class="col-xs-7">
           <h3>Piano Ear Trainer Web App</h3>
           <hr>
           <p>The Piano Ear Trainer is designed to be a fun tool to help users improve their sense of pitch. At the press of a button a user is played a random piano note. A user can then input their guess of where on the piano that note came from. Alternatively the aspiring musician can also improve their sheet music reading skills by generating a random note on the staff. The app keeps track of the users score and displays this as a percentage in a scss graphic dial.</p>
         </div>
-        <div class="col-xs-5"><img src="img/imac.png"/></div>
+        <div class="col-xs-5">
+          <img class="img-responsive" src="img/piano-trainer-nobg.png"/>
+        </div>
       </div>
       <div class="row">
-        <div class="col-xs-5"><img src="img/imac.png"/></div>
+        <div class="col-xs-5">
+          <a href="http://www.elrwebsolutions.com/9784755121.html">
+          <img class="img-responsive" src="img/web-scraper-nobg.png"/>
+          </a>
+        </div>
         <div class="col-xs-7">
           <h3>Website Generator</h3>
           <hr>
-          <p>This is a web scraping project involving web scraping on yelp using beautiful soup. The parsed data is scraped, saved, formatted and thrown into a responsive website template.</p>
+          <p>This is a web scraping project involving python web scraping using beautiful soup. The parsed data is scraped, saved, formatted and thrown into a responsive website template.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-xs-7">
           <h3>Tune-bot tuning calculator</h3>
           <hr>
-          <p>The popular tune-bot tuning calculator is a javascript based calculator that takes inputs such as drum size, number of drums, and tuning preference and provides the user with suggested tunings based on their individual setup.</p>
+          <p>The popular tune-bot tuning calculator is a JavaScript based calculator that takes inputs such as drum size, number of drums, and tuning preference and provides the user with suggested tunings based on their individual setup.</p>
         </div>
-        <div class="col-xs-5"><img src="img/imac.png"/></div>
+        <div class="col-xs-5">
+          <a href="http://www.tune-bot.com/">
+          <img class="img-responsive" src="img/tune-bot-site-nobg.png"/>
+        </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5">
+          <img class="img-responsive" src="img/bassapp-nobg.png"/>
+        </div>
+        <div class="col-xs-7">
+          <h3>Android Bass Guitar Tuner</h3>
+          <hr>
+          <p>This is an android app that generates a random note from a bass guitar. The user is presented with a UI that resembles a bass guitar's fret board. The user will guess where on the fret board the note came from by pressing on the screen. The user will then be told if their guess was right or wrong.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-7">
+          <h3>Rails Menu Ordering System</h3>
+          <hr>
+          <p>This is a project done in rails intended to allow restaurant patrons to order food through their mobile devices. Restaurant owners can upload their full menu, while customers can place menus through the app that will then be displayed and processed in the kitchen. Additionally the order information can be used for analytics purposes.</p>
+        </div>
+        <div class="col-xs-5">
+          <img class="img-responsive" src="img/meni-nobg.png"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-5">
+          <a href="http://chinatown-aces.herokuapp.com/">
+          <img class="img-responsive" src="img/chinatown-nobg.png"/>
+        </a>
+        </div>
+        <div class="col-xs-7">
+          <h3>Chinatown Review site</h3>
+          <hr>
+          <p>A group project done in rails for featuring and reviewing restaurants in Boston's Chinatown neighborhood. Users can create new restaurants, upload photos, write reviews, and vote on reviews as well.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-7">
+          <h3>Link Shortener</h3>
+          <hr>
+          <p>Too Short Link Shortener is a url link shortener. Similarly to products like bitly the link shortener allows users to input long urls and returns you a shorter url which will redirect to the originally provided url. Additionally a user can automatically generate html links by providing a destination url and label.</p>
+        </div>
+        <div class="col-xs-5">
+          <a href="https://tooshrt.herokuapp.com/">
+          <img class="img-responsive" src="img/link-shortener-site-nobg.png"/>
+        </a>
+        </div>
       </div>
     </div>
   </div>
@@ -172,6 +238,7 @@
 </div>
 <!-- portfolio header end-->
 <div class="container blue-bar">
+  <a name="resume"></a>
   <div class='row'>
     <h2><span> resume </span></h2>
 
@@ -181,19 +248,12 @@
   <div class='row'>
     <div class='col-sm-8'>
       <h3>Employment</h3>
-      <!-- <div class"row">
-<div class='col-xs-2'><h4><span class='date'>2011</span></h4></div>
-<div class='col-xs-10'><h4>Manager / Confounder<span> - Overtone Labs</span></h4>
-
-         <p>Started Overtone Labs Inc. in 2011 where we invented a hit product called the tune-bot drum tuner and have since gone on to develop other new and innovative accesories for drummers.</p>
-       </div>
-     </div> -->
      <div class='row'>
       <div class='col-xs-2'><h4><span class='date'>2011-2015</span></h4></div>
       <div class='col-xs-10'>
         <h4>Manager / Confounder<span> - Overtone Labs</span></h4>
 
-        <p>Started Overtone Labs Inc. in 2011 where we invented a hit product called the tune-bot drum tuner and have since gone on to develop other new and innovative accesories for drummers.</p>
+        <p>Started Overtone Labs Inc. in 2011 where we invented a hit product called the tune-bot drum tuner and have since gone on to develop other new and innovative accessories for drummers.</p>
       </div>
     </div>
     <div class='row'>
@@ -260,14 +320,7 @@
   </div>
 </div>
 <!-- resume header -->
-<div class="white-bar">
-  <div class="container">
-    <h2><span> contact </span></h2>
 
-          <!-- <button onclick="addClass('portfolio-1','hidden')"> remove class </button>
-          <button onclick="removeClass('portfolio-1','hidden')"> add class </button> -->
-        </div>
-      </div>
       <!-- resume header end -->
       <!-- jQuery -->
       <script src="js/jquery.js"></script>

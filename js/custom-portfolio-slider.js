@@ -7,7 +7,7 @@ $(document).ready(function(){
   //check to see if numbers exceed total number of divs(slides)
   function plusOneOrReset(number){
     number += 1;
-    if (number > 6){
+    if (number > 7){
       number = 1;
     }
     return number;
